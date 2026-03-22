@@ -147,7 +147,7 @@ export default function ReportsPage() {
             { icon: Building2, label: 'Salas ativas', value: rooms.length, color: '#BA7517' },
           ].map(({ icon: Icon, label, value, color }) => (
             <div key={label} style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 12, padding: '1rem' }}>
-              <div style={{ display: 'flex', align: 'center', gap: 8, marginBottom: 8 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
                 <Icon size={16} color={color} />
                 <span style={{ fontSize: 12, color: 'var(--text-3)' }}>{label}</span>
               </div>
