@@ -106,7 +106,7 @@ export default function ReportsPage() {
   }
 
   if (loading) {
-    return <AppShell><div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-3)' }}>Carregando relatórios…</div></AppShell>
+    return <AppShell><div style={{ textalignItems: 'center', padding: '4rem', color: 'var(--text-3)' }}>Carregando relatórios…</div></AppShell>
   }
 
   return (
